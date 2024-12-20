@@ -1,90 +1,88 @@
-To-Do Application
 
-A simple and elegant to-do application built using React with Vite and styled with Tailwind CSS. This application allows users to efficiently manage their tasks by adding, editing, and deleting tasks. Each task is timestamped to help track activities more effectively.
+# To-Do List Application
 
-Features
+## Overview
 
-Add Tasks: Add new tasks with a timestamp.
+This project is a **To-Do List Application** built with **React.js**, **Node.js**. It enables users to manage tasks efficiently by providing features like adding, updating, and deleting tasks.
 
-Edit Tasks: Update task descriptions.
+---
 
-Delete Tasks: Remove tasks from the list.
+## Features
 
-Task Status: Mark tasks as completed or pending.
+1. **Add Tasks**: Users can add new tasks with a title and description.
+2. **Mark as Complete**: Mark tasks as complete or incomplete.
+3. **Edit Tasks**: Update task details such as the title or description.
+4. **Delete Tasks**: Remove tasks from the list.
+5. **Responsive Design**: The application works seamlessly on desktop and mobile devices.
+6. **Persistent Storage**: Tasks are stored in a MongoDB database, ensuring data persistence.
 
-Timestamping: Automatically stores the current timestamp for every task to ensure accurate tracking.
+---
 
-Technologies Used
+## Tech Stack
 
-React: For building the user interface.
+- **Frontend**: React.js, Tailwind CSS
+- **State Management**: React Hooks
+- **Styling**: Tailwind CSS for modern and responsive design.
 
-Vite: For fast development and building.
+---
 
-Tailwind CSS: For sleek and modern styling.
+## Setup Instructions
 
-Installation
+### Prerequisites
 
-Follow these steps to set up the project locally:
+- Node.js installed on your system.
+- MongoDB set up locally or on a cloud service like MongoDB Atlas.
 
-Clone the repository:
+### Steps to Run
 
-git clone <repository-url>
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/todo-list.git
+   cd todo-list
+   ```
 
-Navigate to the project directory:
 
-cd todo-application
+2. **Install Frontend Dependencies**
+   Navigate to the frontend directory and install dependencies:
+   ```bash
+   cd ../frontend
+   npm install
+   ```
 
-Install dependencies:
+3. **Start the Frontend Development Server**
+   ```bash
+   npm start
+   ```
 
-npm install
+4. **Access the Application**
+   Open your browser and navigate to `http://localhost:3000`.
 
-Start the development server:
+---
 
-npm run dev
+## File Structure
 
-Open the application in your browser at http://localhost:5173.
-
-Project Structure
-
-├── src
-│   ├── components
-│   │   ├── TaskInput.jsx   // Input field and Add button
-│   │   ├── TaskList.jsx    // Displays task list
-│   │   └── TaskItem.jsx    // Individual task with edit/delete functionality
-│   ├── App.jsx            // Main application file
-│   └── index.css          // Tailwind CSS imports
-├── public
-│   └── index.html         // Entry HTML file
-├── package.json
-├── tailwind.config.js
-└── vite.config.js
-
-How to Use
-
-Add a Task:
-
-Enter a task in the input field.
-
-Click the Add button to create the task with the current timestamp.
-
-Edit a Task:
-
-Click the pencil icon next to a task to edit it.
-
-Make the necessary changes and save them.
-
-Delete a Task:
-
-Click the trash icon to delete the task.
-
-Mark Task Status:
-
-Click the status icon to toggle between completed and pending.
-
-Screenshot
+```
+todo-list/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Task.js        # Task card component
+│   │   │   ├── TaskForm.js    # Form to add/edit tasks
+│   │   │   └── TaskList.js    # List of tasks
+│   │   ├── App.js             # Main React file
+│   │   └── index.js           # Entry point
+│   ├── public/
+│   └── package.json
+├── README.md
+```
 
 
 
-License
+## Screenshots
 
-This project is open-source and available under the MIT License.
+### 1. Home Page
+Displays the list of tasks with options to add, edit, and delete tasks.
+![image](https://github.com/user-attachments/assets/a67c6b70-a740-420e-aed9-518432a63e50)
+
+
+
