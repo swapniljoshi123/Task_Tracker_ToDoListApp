@@ -82,7 +82,8 @@ todo-list/
 
 ### 1. Home Page
 Displays the list of tasks with options to add, edit, and delete tasks.
-![image](https://github.com/user-attachments/assets/a67c6b70-a740-420e-aed9-518432a63e50)
+![image](https://github.com/user-attachments/assets/b9f2263c-07e4-4243-bb21-ec656ed073e1)
+
 
 
 
